@@ -52,8 +52,8 @@ cd ../processed/user_logs
 rm *ipaddr*
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
 cd ..
-ls > ../inventory.txt
-
+pwd
+ls -R > ../inventory.txt
 ###########################################
 
 echo "Project setup is complete!"
